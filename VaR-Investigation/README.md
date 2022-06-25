@@ -1,7 +1,7 @@
 # VaR Investigation
 
 
-The purpose of this Jupyter notebook is to understand Value-at-Risk backtesing methods employed in `Python`. This will also be the only project that is described (theoretically) in detail and that has a substantial amount of comments with each graph. Be aware that the main purpose was to learn `Python` and not on providing theoretically sound argumentation for the different plots and tables. 
+**The purpose of this Jupyter notebook is to understand Value-at-Risk backtesing methods employed in `Python`.** This is also the only project that is described (theoretically) in detail and that has a substantial amount of argumentation. Be aware that the main purpose was to learn `Python` and not on providing theoretically sound argumentation for the different plots and tables. 
 
 Therefore, the general investigation leads to some simple conclusions that have been empirically observed before: More complex GARCH-based VaR models provides better adequate forecasts as opposed to the Gaussian distribution. Especially for the 99% VaR, the GARCH model passes the Basel Trafic-light test and provides with substantially less VaR violations than the Gaussian distribution. The analysis ends with a large-scale backtest investigation on more than 2000+ equities and further strengthens the same conclusions done in the prior analysis. 
 
